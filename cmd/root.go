@@ -28,7 +28,7 @@ func init() {
 func ExecuteCommand() error {
 	err := rootCmd.Execute()
 	if err != nil {
-		pterm.Error.Print(err.Error())
+		pterm.Error.Printfln("%s", err.Error())
 	}
 	return err
 }

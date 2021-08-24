@@ -12,7 +12,7 @@ func NewVersionCommand() *cobra.Command {
 		Use:   "version",
 		Short: "Print the version of reversex.",
 		Run: func(cmd *cobra.Command, args []string) {
-			pterm.FgLightCyan.Printf("reversex version: %s", VERSION)
+			pterm.FgLightCyan.Printfln("reversex version: %s", VERSION)
 		},
 	}
 	return versionCmd

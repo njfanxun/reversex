@@ -9,7 +9,7 @@ import (
 	"strings"
 	"text/template"
 
-	"reversex/tpl"
+	"github.com/njfanxun/reversex/tpl"
 
 	"xorm.io/xorm/schemas"
 )

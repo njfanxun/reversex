@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"reversex/reverse"
+	"github.com/njfanxun/reversex/reverse"
 
 	"github.com/pterm/pterm"
 	"github.com/spf13/cobra"

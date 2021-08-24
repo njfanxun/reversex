@@ -1,4 +1,4 @@
-module reversex
+module github.com/njfanxun/reversex
 
 go 1.16
 

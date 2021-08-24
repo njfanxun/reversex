@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/njfanxun/reversex/cmd"
+	_ "github.com/njfanxun/reversex/lib"
 	"os"
-	"reversex/cmd"
-	_ "reversex/lib"
 )
 
 func main() {

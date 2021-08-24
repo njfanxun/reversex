@@ -10,8 +10,8 @@ import (
 	"strings"
 	"text/template"
 
-	"reversex/language"
-	"reversex/tpl"
+	"github.com/njfanxun/reversex/language"
+	"github.com/njfanxun/reversex/tpl"
 
 	"github.com/cockroachdb/errors"
 	"github.com/gobwas/glob"

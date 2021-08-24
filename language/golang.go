@@ -8,7 +8,8 @@ import (
 	"sort"
 	"strings"
 	"text/template"
-	"xorm-reversex/tpl"
+
+	"reversex/tpl"
 
 	"xorm.io/xorm/schemas"
 )

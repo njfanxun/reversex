@@ -2,8 +2,8 @@ package main
 
 import (
 	"os"
-	"xorm-reversex/cmd"
-	_ "xorm-reversex/lib"
+	"reversex/cmd"
+	_ "reversex/lib"
 )
 
 func main() {

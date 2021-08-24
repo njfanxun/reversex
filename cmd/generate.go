@@ -2,7 +2,8 @@ package cmd
 
 import (
 	"fmt"
-	"xorm-reversex/reverse"
+
+	"reversex/reverse"
 
 	"github.com/pterm/pterm"
 	"github.com/spf13/cobra"

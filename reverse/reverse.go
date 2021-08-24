@@ -9,8 +9,9 @@ import (
 	"path/filepath"
 	"strings"
 	"text/template"
-	"xorm-reversex/language"
-	"xorm-reversex/tpl"
+
+	"reversex/language"
+	"reversex/tpl"
 
 	"github.com/cockroachdb/errors"
 	"github.com/gobwas/glob"
